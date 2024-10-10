@@ -20,7 +20,7 @@ Proceso Rompecabezas_de_letras
     
     // Informar al jugador si la palabra es correcta o incorrecta
     Si palabraJugadorCorrecta Entonces
-        Escribir "¡Correcto! Has formado la palabra correctamente.";
+        Escribir "Â¡Correcto! Has formado la palabra correctamente.";
     Sino
         Escribir "Incorrecto. La palabra correcta era: ", palabraCorrecta;
 	FinSi
