@@ -13,13 +13,13 @@ Algoritmo exoneracion_de_leccion
 	
 	Segun N Hacer
 		1:
-			// Interés Simple
+			// InterÃ©s Simple
 			interes_simple <- (capital_depositado * (tasa_de_interes / 100)) * tiempo;
 			monto <- capital_depositado + interes_simple;
 			Escribir "Valor de interes simple: ", interes_simple;
 			Escribir "Valor de monto: ", monto;
 		2:
-			// Interés Compuesto
+			// InterÃ©s Compuesto
 			monto <- capital_depositado * (1 + tasa_de_interes / 100) ^ tiempo;
 			interes_compuesto <- monto - capital_depositado;
 			Escribir "Valor de interes compuesto: ", interes_compuesto;
